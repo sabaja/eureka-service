@@ -13,4 +13,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 0
+  #https://stackoverflow.com/questions/47038907/how-to-eliminate-the-eureka-may-be-incorrectly-claiming-instances-are-up-when-t
+  renewalPercentThreshold: 0.85
 #default  Eureka dashboard: http://localhost:8761/
